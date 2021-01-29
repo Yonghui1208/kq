@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alex632/kq.git"
+    "url": "git+https://github.com/Yonghui1208/kq.git"
   },
   "author": "alex_huang@wistron.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alex632/kq/issues"
+    "url": "https://github.com/Yonghui1208/kq/issues"
   },
-  "homepage": "https://github.com/alex632/kq#readme"
+  "homepage": "https://github.com/Yonghui1208/kq#readme"
 }
