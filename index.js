@@ -317,7 +317,7 @@ function parseKQ(html) {
             'g');   // NOTE: 'g' is important
         let m = rex.exec(html);
         if (m) {
-            dataList.push([m[1],m[2],m[3],m[4]]);
+            dataList.push([m[1], m[2], m[3], m[4]]);
             console.log(`${m[1]} ${m[2]} ${m[3]} ${m[4]}`);
             html = html.substr(rex.lastIndex);
         } else {
@@ -371,7 +371,7 @@ function loadData() {
             else {
                 if (count == 0) {
                     Status = '只刷一次';
-                    //FTime = '';//如果只刷一次，第一次相当于最后一次，所以把FTime赋值为空
+                    FTime = '';//如果只刷一次，第一次相当于最后一次，所以把FTime赋值为空
                 }
                 else {
                     Status = newFunction();
@@ -424,7 +424,7 @@ function askAll() {
     inquire('2020-12-24', '2020-12-28', 'john', false,
         () => inquire('2020-12-24', '2020-12-28', 'S2008001', false,
             () => inquire('2020-12-24', '2020-12-28', 'ANNE', false,
-                () => inquire('2020-12-24', '2020-12-28', 'LEO MY CHEN', false,
+                () => inquire('2021-01-01', '2021-02-05', 'LEO MY CHEN', false,
                     () => inquire('2020-12-24', '2020-12-28', 'S0203002', false,
                         function () {
                             loadData()
